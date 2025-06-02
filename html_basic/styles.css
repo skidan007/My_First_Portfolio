@@ -57,7 +57,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */
+} 
+th {
+    color: aqua;
+    padding: 5px;
+}
+td {
+    margin: 5px;
+}
 
 
 /* Fonts and colors */
@@ -76,12 +83,13 @@ article {
 header {
 	border-bottom: 1px solid rgb(221,221,221);
 	transition: border-bottom-color 1s ease;
+    background-color: rgb(41, 40, 40);
 }
 header a {
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
 aside {
-	background: #FAFAFA;
+	background: #FAFAFA;s
     flex: 1;
     overflow-y: auto;
 }
@@ -89,9 +97,10 @@ aside p {
 	border: 1px solid #bbb;
 	background: #ddd;
 	color: black;
+    border: 1px rgb(43, 42, 42) solid;
 }
 footer a {
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(245, 54, 54, 0.8);
 }
 a {
 	color: #F80002;
@@ -115,6 +124,8 @@ article > *:first-child {
 }
 aside {
 	padding: 50px 15px;
+    background-color: rgb(122, 122, 122);
+    border: 1px solid black;
 }
 /* header .right {
 	float: right;
@@ -161,8 +172,11 @@ aside p {
 /* Footer */
 
 footer {
+    background-color: black;
+    color: white;
 	padding: 5px 15px;
 	height: 80px;
+    text-align: center;
 }
 
 
@@ -174,14 +188,17 @@ p {
 h1 {
 	font-size: 36px;
 	margin: 40px 0 20px;
+    color: green;
 }
 h2 {
 	font-size: 32px;
 	margin: 30px 0 15px;
+    color: #F80002;
 }
 h3 {
 	font-size: 28px;
 	margin: 25px 0 10px;
+    color: blue;
 }
 h4 {
 	font-size: 20px;
